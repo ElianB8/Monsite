@@ -1,0 +1,96 @@
+.header-image{
+    background: linear-gradient(rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)),
+    url(../img/background.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #999;
+}
+
+.nom{
+    font-size: 52px;
+    color:white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
+}
+
+.age{
+    font-size: 28px;
+    letter-spacing: 0.1em;
+    padding: 25px;
+    color:white;
+}
+
+.red-color {
+    color: #e57373 !important;
+}
+
+.red-color-b{
+    background-color: #e57373 !important;;
+}
+
+.icon {
+    margin-left: 10px;
+    margin-right: 10px;
+    transition-duration: 0.1s;
+}
+
+
+.icon:hover {
+    transform: scale(1.1);
+    color: white !important;
+}
+
+.icon:active {
+    transform: scale(0.9);
+}
+
+.modal-card-body{
+    background: #555555;
+}
+
+.modal-card-head{
+    background: #4a4a4a;
+}
+
+.modal-card-title{
+    font-weight: bolder;
+    color : white;
+    text-transform: uppercase;
+}
+
+.progress-wrapper {
+    position: relative;
+}
+
+.progress-value {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: calc(1rem / 1.5);
+    line-height: 1rem;
+    font-weight: bold;
+}
+
+.progress.is-small+.progress-value {
+    font-size: calc(0.75rem / 1.5);
+    line-height: 0.75rem;
+}
+
+.progress.is-medium+.progress-value {
+    font-size: calc(1.25rem / 1.5);
+    line-height: 1.25rem;
+}
+
+.progress.is-large+.progress-value {
+    font-size: calc(1.5rem / 1.5);
+    line-height: 1.5rem;
+}
+
+.comp{
+    margin-top: 30px;
+}
